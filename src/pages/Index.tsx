@@ -98,8 +98,11 @@ const Index = () => {
               <p className="text-xs mb-6 md:mb-8 font-light" style={{ color: '#666' }}>
                 Acesso imediato&nbsp;•&nbsp;Sem impressão&nbsp;•&nbsp;Só baixar e salvar
               </p>
-              <button
-                className="w-full cursor-pointer font-bold text-sm md:text-base py-4 px-6 transition-all duration-300 hover:-translate-y-1 active:scale-95 leading-snug gradient-orange-btn"
+              <a
+                href="https://pay.kiwify.com.br/jKcYFec"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full block text-center cursor-pointer font-bold text-sm md:text-base py-4 px-6 transition-all duration-300 hover:-translate-y-1 active:scale-95 leading-snug gradient-orange-btn"
                 style={{
                   color: '#fff',
                   borderRadius: '50px',
@@ -109,7 +112,7 @@ const Index = () => {
                 }}
               >
                 QUERO OS 10 FUNDOS DE TELA — R$ 17,00
-              </button>
+              </a>
             </div>
           </section>
         </div>
@@ -151,8 +154,11 @@ const Index = () => {
         {/* Final CTA */}
         <div className="fade-in-up delay-5 w-full">
           <section className="relative z-10 flex flex-col items-center text-center px-4 md:px-5 pb-10 md:pb-20 gap-4 md:gap-5">
-            <button
-              className="w-full max-w-sm cursor-pointer font-bold text-sm md:text-base py-4 px-6 transition-all duration-300 hover:-translate-y-1 active:scale-95 leading-snug gradient-orange-btn"
+            <a
+              href="https://pay.kiwify.com.br/jKcYFec"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full max-w-sm block text-center cursor-pointer font-bold text-sm md:text-base py-4 px-6 transition-all duration-300 hover:-translate-y-1 active:scale-95 leading-snug gradient-orange-btn"
               style={{
                 color: '#fff',
                 borderRadius: '50px',
@@ -162,7 +168,7 @@ const Index = () => {
               }}
             >
               QUERO OS 10 FUNDOS DE TELA — R$ 17,00
-            </button>
+            </a>
             <p className="text-xs md:text-sm max-w-xs" style={{ color: '#666' }}>
               🛡️ Garantia de 7 dias — 100% do valor devolvido sem perguntas.
             </p>
